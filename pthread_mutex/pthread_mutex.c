@@ -42,8 +42,8 @@ int main(void)
 
     writefun(NULL);
 
-
-    pthread_mutex_destroy(&mutex);
+	sleep(1);
+    pthread_mutex_destroy(&mutex);// 销毁
      return 0;
 }
 
@@ -60,8 +60,8 @@ void *readfun(void *arg)
         // 其实buffer_has_item & buffer这2个变量都是需要互斥访问的,
         // 所以需要加锁。
         if(1 == buffer_has_item ){// 如果有东西
-             printf("%s\n",buffer);// 消费
-             buffer_has_item = 0; // 置空
+            printf("读者 %s\n",buffer);// 消费
+            buffer_has_item = 0; // 置空
         }
         pthread_mutex_unlock(&mutex);
     }
@@ -81,7 +81,8 @@ void * writefun(void *arg)
         }
         pthread_mutex_lock(&mutex);
         if(0 == buffer_has_item){
-             sprintf(buffer,"This is %d\n",i++);
+	     printf("写者 %d\n",i);
+             sprintf(buffer,"This is %d",i++);
              buffer_has_item = 1;
         }
         pthread_mutex_unlock(&mutex);
