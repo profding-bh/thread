@@ -41,6 +41,7 @@ void put(struct producers *b,int data)
           // 在返回之前，pthread_cond_wait需要参数b->lock
           // 只要pthread_cond_wait返回，while循环就会结束，因为
           // 此时，缓冲区处于不满状态，所以while(条件)为假。
+          // 在阻塞前，自动释放b->lock,在返回前，自动获得b->lock
      }
 
      // 向缓冲区写入数据，并且指针后移
@@ -88,7 +89,7 @@ void *producer(void *data)
         printf("Producer: %d-->\n",n);
         put(&buffer,n);
     }
-    put(&buffer,OVER);// 这句干嘛？
+    put(&buffer,OVER);// 这句干嘛？用来终止
     return NULL;
 }
 
@@ -100,7 +101,7 @@ void *consumer(void *data){
     int d;
     while(1){
          d = get(&buffer);// 获取数据
-         if(d == OVER)
+         if(d == OVER)// -1,消费者结束
          {
               break;
          }

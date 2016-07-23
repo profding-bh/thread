@@ -26,11 +26,9 @@ main()
         if(ret){
              printf("创建线程失败: %d  %s\n",ret,strerror(ret));
         }else{
-           pthread_detach(tid1);// 分离线程，回收线程stack占用的内存
+          //  pthread_detach(tid1);// 分离线程，回收线程stack占用的内存
         }
     }
-
-
     while(1){
    
 }
