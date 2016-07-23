@@ -34,7 +34,7 @@ thread_start(void *arg)
     curr = start = time(NULL);
     while(!done){
          pthread_testcancel(); /* A cancellation point*/
-         if(curr < time(NULL)){
+         if(curr < time(NULL)){// 每隔1s，打印cnt
              curr = time(NULL);
              printf("cnt = %d\n",cnt); /* A cancellation point*/
              cnt++;
