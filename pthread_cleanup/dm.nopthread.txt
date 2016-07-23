@@ -1,0 +1,1189 @@
+#define _XOPEN_XPG3 1
+#define _IO_CURRENTLY_PUTTING 0x800
+#define _SC_CHAR_MIN _SC_CHAR_MIN
+#define __DBL_MIN_EXP__ (-1021)
+#define _IO_peekc_unlocked(_fp) (_IO_BE ((_fp)->_IO_read_ptr >= (_fp)->_IO_read_end, 0) && __underflow (_fp) == EOF ? EOF : *(unsigned char *) (_fp)->_IO_read_ptr)
+#define _SC_XOPEN_UNIX _SC_XOPEN_UNIX
+#define _CS_V6_ENV _CS_V6_ENV
+#define EMULTIHOP 72
+#define _CS_POSIX_V6_ILP32_OFFBIG_LIBS _CS_POSIX_V6_ILP32_OFFBIG_LIBS
+#define _SC_PII _SC_PII
+#define _POSIX_THREAD_PRIORITY_SCHEDULING 200809L
+#define _POSIX_SHARED_MEMORY_OBJECTS 200809L
+#define __UINT_LEAST16_MAX__ 65535
+#define __ATOMIC_ACQUIRE 2
+#define _POSIX2_SW_DEV __POSIX2_THIS_VERSION
+#define _CS_XBS5_LPBIG_OFFBIG_LIBS _CS_XBS5_LPBIG_OFFBIG_LIBS
+#define _SC_PII_OSI_COTS _SC_PII_OSI_COTS
+#define _SC_NGROUPS_MAX _SC_NGROUPS_MAX
+#define __FLT_MIN__ 1.17549435082228750797e-38F
+#define __uid_t_defined 
+#define _SC_SPIN_LOCKS _SC_SPIN_LOCKS
+#define _SC_TIMEOUTS _SC_TIMEOUTS
+#define _IO_UNITBUF 020000
+#define __bswap_16(x) (__extension__ ({ unsigned short int __v, __x = (unsigned short int) (x); if (__builtin_constant_p (__x)) __v = __bswap_constant_16 (__x); else __asm__ ("rorw $8, %w0" : "=r" (__v) : "0" (__x) : "cc"); __v; }))
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define _SC_IPV6 _SC_IPV6
+#define EUNATCH 49
+#define _SC_XOPEN_REALTIME _SC_XOPEN_REALTIME
+#define __flexarr []
+#define _SC_LINE_MAX _SC_LINE_MAX
+#define _IO_FLAGS2_USER_WBUF 8
+#define _SCHED_H 1
+#define __S64_TYPE long int
+#define _POSIX_PRIORITIZED_IO 200809L
+#define _SC_LONG_BIT _SC_LONG_BIT
+#define __stub_fchflags 
+#define __SQUAD_TYPE long int
+#define __INTMAX_C(c) c ## L
+#define _SC_LEVEL4_CACHE_SIZE _SC_LEVEL4_CACHE_SIZE
+#define _BSD_SIZE_T_DEFINED_ 
+#define PTHREAD_SCOPE_PROCESS PTHREAD_SCOPE_PROCESS
+#define PTHREAD_CANCELED ((void *) -1)
+#define _BITS_TIME_H 1
+#define _SC_SSIZE_MAX _SC_SSIZE_MAX
+#define __socklen_t_defined 
+#define CLOCK_THREAD_CPUTIME_ID 3
+#define __TIME_T_TYPE __SYSCALL_SLONG_TYPE
+#define __CHAR_BIT__ 8
+#define __FSWORD_T_TYPE __SYSCALL_SLONG_TYPE
+#define _XOPEN_CRYPT 1
+#define _G_HAVE_MREMAP 1
+#define EAFNOSUPPORT 97
+#define _SC_THREAD_SAFE_FUNCTIONS _SC_THREAD_SAFE_FUNCTIONS
+#define EREMCHG 78
+#define __CPU_ZERO_S(setsize,cpusetp) do __builtin_memset (cpusetp, '\0', setsize); while (0)
+#define EACCES 13
+#define __UINT8_MAX__ 255
+#define _POSIX_CLOCK_SELECTION 200809L
+#define _POSIX_TYPED_MEMORY_OBJECTS -1
+#define _SC_COLL_WEIGHTS_MAX _SC_COLL_WEIGHTS_MAX
+#define _SC_TYPED_MEMORY_OBJECTS _SC_TYPED_MEMORY_OBJECTS
+#define EDESTADDRREQ 89
+#define __WINT_MAX__ 4294967295U
+#define _SC_TTY_NAME_MAX _SC_TTY_NAME_MAX
+#define __SIZEOF_PTHREAD_ATTR_T 56
+#define stderr stderr
+#define __GLIBC_PREREQ(maj,min) ((__GLIBC__ << 16) + __GLIBC_MINOR__ >= ((maj) << 16) + (min))
+#define _CS_LFS64_LDFLAGS _CS_LFS64_LDFLAGS
+#define _CS_POSIX_V7_LP64_OFF64_LINTFLAGS _CS_POSIX_V7_LP64_OFF64_LINTFLAGS
+#define EILSEQ 84
+#define _SC_PII_SOCKET _SC_PII_SOCKET
+#define ESPIPE 29
+#define _LFS_ASYNCHRONOUS_IO 1
+#define _SC_V7_ILP32_OFF32 _SC_V7_ILP32_OFF32
+#define __OFF_T_MATCHES_OFF64_T 1
+#define EMLINK 31
+#define __ORDER_LITTLE_ENDIAN__ 1234
+#define __SIZE_MAX__ 18446744073709551615UL
+#define __stub_putmsg 
+#define __WCHAR_MAX__ 2147483647
+#define _SC_2_C_DEV _SC_2_C_DEV
+#define _SC_LEVEL3_CACHE_LINESIZE _SC_LEVEL3_CACHE_LINESIZE
+#define __clock_t_defined 1
+#define __BLKCNT_T_TYPE __SYSCALL_SLONG_TYPE
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+#define __DBL_DENORM_MIN__ ((double)4.94065645841246544177e-324L)
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+#define _IO_flockfile(_fp) 
+#define _IOFBF 0
+#define __USE_BSD 1
+#define __FLT_EVAL_METHOD__ 0
+#define _SC_NPROCESSORS_CONF _SC_NPROCESSORS_CONF
+#define _SC_SPORADIC_SERVER _SC_SPORADIC_SERVER
+#define _IO_USER_LOCK 0x8000
+#define _IO_NO_WRITES 8
+#define __ASMNAME2(prefix,cname) __STRING (prefix) cname
+#define _SC_SYSTEM_DATABASE _SC_SYSTEM_DATABASE
+#define __unix__ 1
+#define _SC_XOPEN_STREAMS _SC_XOPEN_STREAMS
+#define _SC_THREAD_PRIO_INHERIT _SC_THREAD_PRIO_INHERIT
+#define _SC_NPROCESSORS_ONLN _SC_NPROCESSORS_ONLN
+#define _CS_POSIX_V7_ILP32_OFF32_CFLAGS _CS_POSIX_V7_ILP32_OFF32_CFLAGS
+#define _G_HAVE_ST_BLKSIZE defined (_STATBUF_ST_BLKSIZE)
+#define _XOPEN_VERSION 700
+#define SCHED_RR 2
+#define __stub_setlogin 
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __SYSCALL_WORDSIZE 64
+#define _CS_POSIX_V6_LP64_OFF64_LIBS _CS_POSIX_V6_LP64_OFF64_LIBS
+#define __FLOAT_WORD_ORDER __BYTE_ORDER
+#define __x86_64 1
+#define _SC_LEVEL1_DCACHE_LINESIZE _SC_LEVEL1_DCACHE_LINESIZE
+#define _SC_2_CHAR_TERM _SC_2_CHAR_TERM
+#define _CS_LFS_CFLAGS _CS_LFS_CFLAGS
+#define _SC_TRACE_USER_EVENT_MAX _SC_TRACE_USER_EVENT_MAX
+#define __CPU_COUNT_S(setsize,cpusetp) __sched_cpucount (setsize, cpusetp)
+#define PTHREAD_PROCESS_SHARED PTHREAD_PROCESS_SHARED
+#define EOWNERDEAD 130
+#define __CPUMASK(cpu) ((__cpu_mask) 1 << ((cpu) % __NCPUBITS))
+#define _SC_CPUTIME _SC_CPUTIME
+#define __UINT_FAST64_MAX__ 18446744073709551615UL
+#define __SIG_ATOMIC_TYPE__ int
+#define __GID_T_TYPE __U32_TYPE
+#define __DBL_MIN_10_EXP__ (-307)
+#define __FINITE_MATH_ONLY__ 0
+#define _SC_SCHAR_MAX _SC_SCHAR_MAX
+#define __attribute_alloc_size__(params) __attribute__ ((__alloc_size__ params))
+#define EBADE 52
+#define EBADF 9
+#define _SC_XBS5_ILP32_OFFBIG _SC_XBS5_ILP32_OFFBIG
+#define EBADR 53
+#define _SC_SHARED_MEMORY_OBJECTS _SC_SHARED_MEMORY_OBJECTS
+#define _POSIX_THREAD_SAFE_FUNCTIONS 200809L
+#define __pid_t_defined 
+#define EADV 68
+#define ERANGE 34
+#define __GNUC_PATCHLEVEL__ 4
+#define ECANCELED 125
+#define _POSIX_TRACE_EVENT_FILTER -1
+#define _IO_pid_t __pid_t
+#define __UINT_FAST8_MAX__ 255
+#define __LEAF , __leaf__
+#define __LDBL_REDIR1(name,proto,alias) name proto
+#define __size_t 
+#define __DEC64_MAX_EXP__ 385
+#define _POSIX_V7_LP64_OFF64 1
+#define _XOPEN_XCU_VERSION 4
+#define ETXTBSY 26
+#define ENOMEM 12
+#define __SIZEOF_PTHREAD_CONDATTR_T 4
+#define _SC_FILE_ATTRIBUTES _SC_FILE_ATTRIBUTES
+#define __INT8_C(c) c
+#define _CS_PATH _CS_PATH
+#define __UINT_LEAST64_MAX__ 18446744073709551615UL
+#define _ERRNO_H 1
+#define _IO_FLAGS2_MMAP 1
+#define CLOCKS_PER_SEC 1000000l
+#define htobe16(x) __bswap_16 (x)
+#define _XBS5_LPBIG_OFFBIG -1
+#define _SC_BC_SCALE_MAX _SC_BC_SCALE_MAX
+#define __always_inline __inline __attribute__ ((__always_inline__))
+#define _SC_PII_OSI_M _SC_PII_OSI_M
+#define __SHRT_MAX__ 32767
+#define __LDBL_MAX__ 1.18973149535723176502e+4932L
+#define _SC_PII_INTERNET_DGRAM _SC_PII_INTERNET_DGRAM
+#define _SC_CHARCLASS_NAME_MAX _SC_CHARCLASS_NAME_MAX
+#define __ILP32_OFFBIG_CFLAGS "-m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
+#define _SC_SCHAR_MIN _SC_SCHAR_MIN
+#define _IOS_BIN 128
+#define __fortify_function __extern_always_inline __attribute_artificial__
+#define _CS_GNU_LIBPTHREAD_VERSION _CS_GNU_LIBPTHREAD_VERSION
+#define _IO_MAGIC_MASK 0xFFFF0000
+#define __UINT_LEAST8_MAX__ 255
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+#define _SC_THREAD_STACK_MIN _SC_THREAD_STACK_MIN
+#define _SC_V6_LP64_OFF64 _SC_V6_LP64_OFF64
+#define _SC_JOB_CONTROL _SC_JOB_CONTROL
+#define htobe64(x) __bswap_64 (x)
+#define _SC_SYMLOOP_MAX _SC_SYMLOOP_MAX
+#define __UINTMAX_TYPE__ long unsigned int
+#define EINPROGRESS 115
+#define _CS_POSIX_V6_ILP32_OFFBIG_LINTFLAGS _CS_POSIX_V6_ILP32_OFFBIG_LINTFLAGS
+#define _SC_SEM_VALUE_MAX _SC_SEM_VALUE_MAX
+#define _PC_ASYNC_IO _PC_ASYNC_IO
+#define CLOCK_MONOTONIC_COARSE 6
+#define _POSIX_THREAD_CPUTIME 0
+#define __linux 1
+#define __DEC32_EPSILON__ 1E-6DF
+#define _SC_THREAD_PRIO_PROTECT _SC_THREAD_PRIO_PROTECT
+#define __stub_sigreturn 
+#define _BITS_TYPES_H 1
+#define _IO_cleanup_region_end(_Doit) 
+#define _IO_DONT_CLOSE 0100000
+#define __unix 1
+#define __UINT32_MAX__ 4294967295U
+#define __UID_T_TYPE __U32_TYPE
+#define _POSIX_READER_WRITER_LOCKS 200809L
+#define getc(_fp) _IO_getc (_fp)
+#define __SIZE_T 
+#define __LDBL_MAX_EXP__ 16384
+#define _BITS_POSIX_OPT_H 1
+#define _CS_V5_WIDTH_RESTRICTED_ENVS _CS_V5_WIDTH_RESTRICTED_ENVS
+#define _SC_USHRT_MAX _SC_USHRT_MAX
+#define _SC_DEVICE_SPECIFIC_R _SC_DEVICE_SPECIFIC_R
+#define _ATFILE_SOURCE 1
+#define _IO_ssize_t __ssize_t
+#define _SC_NETWORKING _SC_NETWORKING
+#define __WINT_MIN__ 0U
+#define EPROTOTYPE 91
+#define ERESTART 85
+#define _SC_SHELL _SC_SHELL
+#define __SIZEOF_PTHREAD_RWLOCKATTR_T 8
+#define EISNAM 120
+#define __linux__ 1
+#define _IOS_OUTPUT 2
+#define ENOKEY 126
+#define _POSIX_RAW_SOCKETS 200809L
+#define ENOMSG 42
+#define _PC_PRIO_IO _PC_PRIO_IO
+#define _SIZE_T_DEFINED_ 
+#define __LDBL_REDIR_NTH(name,proto) name proto __THROW
+#define __SCHAR_MAX__ 127
+#define _POSIX_SPIN_LOCKS 200809L
+#define EALREADY 114
+#define __USING_NAMESPACE_STD(name) 
+#define _IO_UNIFIED_JUMPTABLES 1
+#define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
+#define _SC_MB_LEN_MAX _SC_MB_LEN_MAX
+#define _POSIX_SYNCHRONIZED_IO 200809L
+#define __KERNEL_STRICT_NAMES 
+#define _IO_stderr ((_IO_FILE*)(&_IO_2_1_stderr_))
+#define _IO_ferror_unlocked(__fp) (((__fp)->_flags & _IO_ERR_SEEN) != 0)
+#define PTHREAD_COND_INITIALIZER { { 0, 0, 0, 0, 0, (void *) 0, 0, 0 } }
+#define __INT64_C(c) c ## L
+#define _SC_TIMERS _SC_TIMERS
+#define __NTH(fct) __attribute__ ((__nothrow__ __LEAF)) fct
+#define __DBL_DIG__ 15
+#define _CS_XBS5_LP64_OFF64_LDFLAGS _CS_XBS5_LP64_OFF64_LDFLAGS
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+#define _CS_LFS_LINTFLAGS _CS_LFS_LINTFLAGS
+#define _CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS
+#define _CS_POSIX_V6_ILP32_OFFBIG_CFLAGS _CS_POSIX_V6_ILP32_OFFBIG_CFLAGS
+#define _SC_2_C_BIND _SC_2_C_BIND
+#define _SC_THREAD_THREADS_MAX _SC_THREAD_THREADS_MAX
+#define _SC_2_UPE _SC_2_UPE
+#define _POSIX_SOURCE 1
+#define __SIZEOF_INT__ 4
+#define __SIZEOF_POINTER__ 8
+#define _SC_PII_OSI_CLTS _SC_PII_OSI_CLTS
+#define _DEFAULT_SOURCE 1
+#define __attribute_used__ __attribute__ ((__used__))
+#define _STDIO_USES_IOSTREAM 
+#define _IO_IN_BACKUP 0x100
+#define CLOCK_REALTIME 0
+#define _XOPEN_REALTIME_THREADS 1
+#define ETIMEDOUT 110
+#define _SC_VERSION _SC_VERSION
+#define _SC_AIO_LISTIO_MAX _SC_AIO_LISTIO_MAX
+#define _SC_RE_DUP_MAX _SC_RE_DUP_MAX
+#define __USER_LABEL_PREFIX__ 
+#define SCHED_OTHER 0
+#define ENODATA 61
+#define __GLIBC__ 2
+#define _SC_POLL _SC_POLL
+#define PTHREAD_CANCEL_DEFERRED PTHREAD_CANCEL_DEFERRED
+#define __END_DECLS 
+#define _POSIX_V6_LPBIG_OFFBIG -1
+#define __CONCAT(x,y) x ## y
+#define _SC_RTSIG_MAX _SC_RTSIG_MAX
+#define __STDC_HOSTED__ 1
+#define _SC_GETPW_R_SIZE_MAX _SC_GETPW_R_SIZE_MAX
+#define __LDBL_HAS_INFINITY__ 1
+#define __SLONG32_TYPE int
+#define _SC_2_PBS_MESSAGE _SC_2_PBS_MESSAGE
+#define _IO_LINE_BUF 0x200
+#define _IOS_NOCREATE 32
+#define _XOPEN_ENH_I18N 1
+#define _SC_TZNAME_MAX _SC_TZNAME_MAX
+#define _CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS
+#define ENOTTY 25
+#define __GNU_LIBRARY__ 6
+#define EINTR 4
+#define _CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS
+#define _CS_POSIX_V7_ILP32_OFFBIG_CFLAGS _CS_POSIX_V7_ILP32_OFFBIG_CFLAGS
+#define _SC_TRACE_EVENT_FILTER _SC_TRACE_EVENT_FILTER
+#define _G_BUFSIZ 8192
+#define __FLT_EPSILON__ 1.19209289550781250000e-7F
+#define __CPUELT(cpu) ((cpu) / __NCPUBITS)
+#define ENOLINK 67
+#define _IO_EOF_SEEN 0x10
+#define _POSIX_SPAWN 200809L
+#define PTHREAD_BARRIER_SERIAL_THREAD -1
+#define TMP_MAX 238328
+#define __SSIZE_T_TYPE __SWORD_TYPE
+#define PTHREAD_CANCEL_ASYNCHRONOUS PTHREAD_CANCEL_ASYNCHRONOUS
+#define __DEV_T_TYPE __UQUAD_TYPE
+#define _CS_POSIX_V7_ILP32_OFFBIG_LIBS _CS_POSIX_V7_ILP32_OFFBIG_LIBS
+#define _IO_SKIPWS 01
+#define _IO_SCIENTIFIC 04000
+#define __LDBL_MIN__ 3.36210314311209350626e-4932L
+#define __nonnull(params) __attribute__ ((__nonnull__ params))
+#define le32toh(x) (x)
+#define __DEC32_MAX__ 9.999999E96DF
+#define EDQUOT 122
+#define _IO_SHOWPOS 02000
+#define _POSIX_THREAD_ATTR_STACKSIZE 200809L
+#define _SC_MEMLOCK _SC_MEMLOCK
+#define _SC_PII_OSI _SC_PII_OSI
+#define CLOCK_BOOTTIME_ALARM 9
+#define __INT32_MAX__ 2147483647
+#define _CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS _CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS
+#define __SIZEOF_PTHREAD_COND_T 48
+#define _POSIX_V7_LPBIG_OFFBIG -1
+#define __SIZEOF_LONG__ 8
+#define _PC_MAX_INPUT _PC_MAX_INPUT
+#define _IONBF 2
+#define _IO_getc_unlocked(_fp) (_IO_BE ((_fp)->_IO_read_ptr >= (_fp)->_IO_read_end, 0) ? __uflow (_fp) : *(unsigned char *) (_fp)->_IO_read_ptr++)
+#define __STDC_IEC_559__ 1
+#define __STDC_ISO_10646__ 201103L
+#define _SC_NL_NMAX _SC_NL_NMAX
+#define __UINT16_C(c) c
+#define ELOOP 40
+#define _SC_C_LANG_SUPPORT_R _SC_C_LANG_SUPPORT_R
+#define __SIZEOF_PTHREAD_BARRIER_T 32
+#define _IO_PENDING_OUTPUT_COUNT(_fp) ((_fp)->_IO_write_ptr - (_fp)->_IO_write_base)
+#define __DECIMAL_DIG__ 21
+#define __USE_FORTIFY_LEVEL 0
+#define _SC_NL_TEXTMAX _SC_NL_TEXTMAX
+#define __gnu_linux__ 1
+#define _SC_T_IOV_MAX _SC_T_IOV_MAX
+#define _SC_GETGR_R_SIZE_MAX _SC_GETGR_R_SIZE_MAX
+#define _ENDIAN_H 1
+#define ENETDOWN 100
+#define ESTALE 116
+#define __attribute_warn_unused_result__ __attribute__ ((__warn_unused_result__))
+#define _SC_2_SW_DEV _SC_2_SW_DEV
+#define _PC_FILESIZEBITS _PC_FILESIZEBITS
+#define _SC_CLOCK_SELECTION _SC_CLOCK_SELECTION
+#define _IO_LEFT 02
+#define _SC_UINT_MAX _SC_UINT_MAX
+#define F_OK 0
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define ENOSR 63
+#define _CS_POSIX_V6_LPBIG_OFFBIG_LINTFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_LINTFLAGS
+#define __attribute_const__ __attribute__ ((__const__))
+#define __THROW __attribute__ ((__nothrow__ __LEAF))
+#define _SC_XOPEN_VERSION _SC_XOPEN_VERSION
+#define _POSIX_REGEXP 1
+#define htobe32(x) __bswap_32 (x)
+#define L_tmpnam 20
+#define __GNUC__ 4
+#define __SYSCALL_ULONG_TYPE __ULONGWORD_TYPE
+#define __MMX__ 1
+#define __timespec_defined 1
+#define L_ctermid 9
+#define __OFF64_T_TYPE __SQUAD_TYPE
+#define __FLT_HAS_DENORM__ 1
+#define __SIZEOF_LONG_DOUBLE__ 16
+#define _SC_ARG_MAX _SC_ARG_MAX
+#define __USE_SVID 1
+#define _SC_TRACE_NAME_MAX _SC_TRACE_NAME_MAX
+#define _SC_USER_GROUPS_R _SC_USER_GROUPS_R
+#define __LDBL_REDIR1_NTH(name,proto,alias) name proto __THROW
+#define SEEK_CUR 1
+#define ELNRNG 48
+#define __BIGGEST_ALIGNMENT__ 16
+#define __defined_schedparam 1
+#define _SC_BC_STRING_MAX _SC_BC_STRING_MAX
+#define STDERR_FILENO 2
+#define _SC_THREAD_DESTRUCTOR_ITERATIONS _SC_THREAD_DESTRUCTOR_ITERATIONS
+#define _POSIX_CHOWN_RESTRICTED 0
+#define __USE_ISOC95 1
+#define _TIME_H 1
+#define __USE_ISOC99 1
+#define __ASMNAME(cname) __ASMNAME2 (__USER_LABEL_PREFIX__, cname)
+#define __CPU_SET_S(cpu,setsize,cpusetp) (__extension__ ({ size_t __cpu = (cpu); __cpu / 8 < (setsize) ? (((__cpu_mask *) ((cpusetp)->__bits))[__CPUELT (__cpu)] |= __CPUMASK (__cpu)) : 0; }))
+#define _IO_uid_t __uid_t
+#define _SC_XOPEN_REALTIME_THREADS _SC_XOPEN_REALTIME_THREADS
+#define __DBL_MAX__ ((double)1.79769313486231570815e+308L)
+#define _SC_LEVEL1_ICACHE_SIZE _SC_LEVEL1_ICACHE_SIZE
+#define sched_priority __sched_priority
+#define _CS_LFS64_CFLAGS _CS_LFS64_CFLAGS
+#define _CS_XBS5_LPBIG_OFFBIG_CFLAGS _CS_XBS5_LPBIG_OFFBIG_CFLAGS
+#define __INT_FAST32_MAX__ 9223372036854775807L
+#define _CS_XBS5_ILP32_OFFBIG_CFLAGS _CS_XBS5_ILP32_OFFBIG_CFLAGS
+#define __DBL_HAS_INFINITY__ 1
+#define __SIZEOF_PTHREAD_MUTEX_T 40
+#define _PC_SYMLINK_MAX _PC_SYMLINK_MAX
+#define _CS_XBS5_ILP32_OFF32_CFLAGS _CS_XBS5_ILP32_OFF32_CFLAGS
+#define _PC_CHOWN_RESTRICTED _PC_CHOWN_RESTRICTED
+#define __SIZEOF_PTHREAD_RWLOCK_T 56
+#define stdin stdin
+#define __USE_XOPEN2K 1
+#define _SC_CLK_TCK _SC_CLK_TCK
+#define _SC_2_VERSION _SC_2_VERSION
+#define __DEC32_MIN_EXP__ (-94)
+#define SCHED_FIFO 1
+#define __DADDR_T_TYPE __S32_TYPE
+#define _SC_EQUIV_CLASS_MAX _SC_EQUIV_CLASS_MAX
+#define __END_NAMESPACE_C99 
+#define EDEADLK 35
+#define EPIPE 32
+#define _POSIX_THREAD_SPORADIC_SERVER -1
+#define _SC_SYSTEM_DATABASE_R _SC_SYSTEM_DATABASE_R
+#define __CPU_ISSET_S(cpu,setsize,cpusetp) (__extension__ ({ size_t __cpu = (cpu); __cpu / 8 < (setsize) ? ((((const __cpu_mask *) ((cpusetp)->__bits))[__CPUELT (__cpu)] & __CPUMASK (__cpu))) != 0 : 0; }))
+#define __FD_SETSIZE 1024
+#define be32toh(x) __bswap_32 (x)
+#define __attribute_format_strfmon__(a,b) __attribute__ ((__format__ (__strfmon__, a, b)))
+#define _IO_MAGIC 0xFBAD0000
+#define _PC_REC_MAX_XFER_SIZE _PC_REC_MAX_XFER_SIZE
+#define __INT_FAST16_TYPE__ long int
+#define _XBS5_LP64_OFF64 1
+#define _SIZE_T_DEFINED 
+#define _POSIX_PRIORITY_SCHEDULING 200809L
+#define _POSIX_NO_TRUNC 1
+#define ECHILD 10
+#define EBADMSG 74
+#define _SC_V6_ILP32_OFF32 _SC_V6_ILP32_OFF32
+#define _SC_CHILD_MAX _SC_CHILD_MAX
+#define __USE_POSIX199506 1
+#define _FEATURES_H 1
+#define __LDBL_HAS_DENORM__ 1
+#define __stub_getmsg 
+#define _SC_ASYNCHRONOUS_IO _SC_ASYNCHRONOUS_IO
+#define _IO_FIXED 010000
+#define _SC_SHRT_MIN _SC_SHRT_MIN
+#define __stub_fattach 
+#define _POSIX_SPORADIC_SERVER -1
+#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+#define __INT_LEAST32_MAX__ 2147483647
+#define _IO_UNBUFFERED 2
+#define _IO_INTERNAL 010
+#define _POSIX_MEMORY_PROTECTION 200809L
+#define __DEC32_MIN__ 1E-95DF
+#define EBFONT 59
+#define _SC_XOPEN_CRYPT _SC_XOPEN_CRYPT
+#define _SC_RAW_SOCKETS _SC_RAW_SOCKETS
+#define __S32_TYPE int
+#define _CS_POSIX_V6_LP64_OFF64_LINTFLAGS _CS_POSIX_V6_LP64_OFF64_LINTFLAGS
+#define _POSIX2_LOCALEDEF __POSIX2_THIS_VERSION
+#define __cleanup_fct_attribute 
+#define __glibc_unlikely(cond) __builtin_expect ((cond), 0)
+#define _SC_2_FORT_DEV _SC_2_FORT_DEV
+#define __DBL_MAX_EXP__ 1024
+#define _SC_THREAD_SPORADIC_SERVER _SC_THREAD_SPORADIC_SERVER
+#define __DEC128_EPSILON__ 1E-33DL
+#define _POSIX_TIMERS 200809L
+#define __SSE2_MATH__ 1
+#define __ATOMIC_HLE_RELEASE 131072
+#define __FSFILCNT_T_TYPE __SYSCALL_ULONG_TYPE
+#define PDP_ENDIAN __PDP_ENDIAN
+#define EREMOTE 66
+#define _SC_OPEN_MAX _SC_OPEN_MAX
+#define __PTRDIFF_MAX__ 9223372036854775807L
+#define _SC_STREAM_MAX _SC_STREAM_MAX
+#define __amd64 1
+#define _IO_LINKED 0x80
+#define ENOTSUP EOPNOTSUPP
+#define _IO_HAVE_ST_BLKSIZE _G_HAVE_ST_BLKSIZE
+#define __STDC_NO_THREADS__ 1
+#define __USECONDS_T_TYPE __U32_TYPE
+#define _IO_DELETE_DONT_CLOSE 0x40
+#define __BEGIN_NAMESPACE_STD 
+#define __OFF_T_TYPE __SYSCALL_SLONG_TYPE
+#define ENONET 64
+#define EXFULL 54
+#define __ATOMIC_HLE_ACQUIRE 65536
+#define PTHREAD_CANCEL_ENABLE PTHREAD_CANCEL_ENABLE
+#define _PC_VDISABLE _PC_VDISABLE
+#define __LONG_LONG_MAX__ 9223372036854775807LL
+#define EBADSLT 57
+#define __SIZEOF_SIZE_T__ 8
+#define _SC_BARRIERS _SC_BARRIERS
+#define _SC_XOPEN_LEGACY _SC_XOPEN_LEGACY
+#define PTHREAD_MUTEX_INITIALIZER { { 0, 0, 0, 0, 0, __PTHREAD_SPINS, { 0, 0 } } }
+#define _POSIX_CPUTIME 0
+#define PTHREAD_CREATE_DETACHED PTHREAD_CREATE_DETACHED
+#define _CS_POSIX_V7_ILP32_OFF32_LIBS _CS_POSIX_V7_ILP32_OFF32_LIBS
+#define __SIZEOF_WINT_T__ 4
+#define _SC_BASE _SC_BASE
+#define __stub_bdflush 
+#define ENOTNAM 118
+#define __U16_TYPE unsigned short int
+#define _STDIO_H 1
+#define pthread_cleanup_push(routine,arg) do { __pthread_unwind_buf_t __cancel_buf; void (*__cancel_routine) (void *) = (routine); void *__cancel_arg = (arg); int __not_first_call = __sigsetjmp ((struct __jmp_buf_tag *) (void *) __cancel_buf.__cancel_jmp_buf, 0); if (__glibc_unlikely (__not_first_call)) { __cancel_routine (__cancel_arg); __pthread_unwind_next (&__cancel_buf); } __pthread_register_cancel (&__cancel_buf); do {
+#define __GCC_HAVE_DWARF2_CFI_ASM 1
+#define __GXX_ABI_VERSION 1002
+#define _SC_PAGESIZE _SC_PAGESIZE
+#define _SC_XOPEN_XCU_VERSION _SC_XOPEN_XCU_VERSION
+#define _CS_POSIX_V6_LPBIG_OFFBIG_LIBS _CS_POSIX_V6_LPBIG_OFFBIG_LIBS
+#define __isleap(year) ((year) % 4 == 0 && ((year) % 100 != 0 || (year) % 400 == 0))
+#define __FLT_MIN_EXP__ (-125)
+#define _SC_READER_WRITER_LOCKS _SC_READER_WRITER_LOCKS
+#define _PC_LINK_MAX _PC_LINK_MAX
+#define PTHREAD_RWLOCK_INITIALIZER { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } }
+#define __CPU_EQUAL_S(setsize,cpusetp1,cpusetp2) (__builtin_memcmp (cpusetp1, cpusetp2, setsize) == 0)
+#define _SC_NL_ARGMAX _SC_NL_ARGMAX
+#define _POSIX_SHELL 1
+#define _SC_XBS5_LPBIG_OFFBIG _SC_XBS5_LPBIG_OFFBIG
+#define _XOPEN_SHM 1
+#define EKEYREJECTED 129
+#define __extern_always_inline extern __always_inline __attribute__ ((__gnu_inline__))
+#define ENOCSI 50
+#define _PC_SOCK_MAXBUF _PC_SOCK_MAXBUF
+#define _SC_WORD_BIT _SC_WORD_BIT
+#define _SC_ULONG_MAX _SC_ULONG_MAX
+#define _SC_TRACE_EVENT_NAME_MAX _SC_TRACE_EVENT_NAME_MAX
+#define _SC_LEVEL2_CACHE_LINESIZE _SC_LEVEL2_CACHE_LINESIZE
+#define _POSIX_ADVISORY_INFO 200809L
+#define _CS_XBS5_ILP32_OFF32_LIBS _CS_XBS5_ILP32_OFF32_LIBS
+#define __INT_FAST64_TYPE__ long int
+#define F_LOCK 1
+#define PTHREAD_INHERIT_SCHED PTHREAD_INHERIT_SCHED
+#define _SC_MQ_OPEN_MAX _SC_MQ_OPEN_MAX
+#define __DBL_MIN__ ((double)2.22507385850720138309e-308L)
+#define EADDRINUSE 98
+#define __CPU_CLR_S(cpu,setsize,cpusetp) (__extension__ ({ size_t __cpu = (cpu); __cpu / 8 < (setsize) ? (((__cpu_mask *) ((cpusetp)->__bits))[__CPUELT (__cpu)] &= ~__CPUMASK (__cpu)) : 0; }))
+#define __cpu_set_t_defined 
+#define _XOPEN_XPG2 1
+#define _XOPEN_XPG4 1
+#define __LITTLE_ENDIAN 1234
+#define _CS_POSIX_V6_LP64_OFF64_LDFLAGS _CS_POSIX_V6_LP64_OFF64_LDFLAGS
+#define CLOCK_REALTIME_COARSE 5
+#define _XOPEN_LEGACY 1
+#define _CS_XBS5_LPBIG_OFFBIG_LDFLAGS _CS_XBS5_LPBIG_OFFBIG_LDFLAGS
+#define __REDIRECT(name,proto,alias) name proto __asm__ (__ASMNAME (#alias))
+#define __LP64__ 1
+#define _IO_off64_t __off64_t
+#define ENETRESET 102
+#define _POSIX_JOB_CONTROL 1
+#define _POSIX_IPV6 200809L
+#define __MODE_T_TYPE __U32_TYPE
+#define CLOCK_REALTIME_ALARM 8
+#define EISDIR 21
+#define __LEAF_ATTR __attribute__ ((__leaf__))
+#define __DECIMAL_BID_FORMAT__ 1
+#define __RLIM64_T_TYPE __UQUAD_TYPE
+#define _IOS_ATEND 4
+#define _SC_V7_LP64_OFF64 _SC_V7_LP64_OFF64
+#define _BITS_SETJMP_H 1
+#define _IO_BOOLALPHA 0200000
+#define _SC_FILE_LOCKING _SC_FILE_LOCKING
+#define __DEC128_MIN__ 1E-6143DL
+#define __REGISTER_PREFIX__ 
+#define __UINT16_MAX__ 65535
+#define _IOS_NOREPLACE 64
+#define __DBL_HAS_DENORM__ 1
+#define EIDRM 43
+#define ECOMM 70
+#define _PC_NAME_MAX _PC_NAME_MAX
+#define _CS_XBS5_ILP32_OFFBIG_LIBS _CS_XBS5_ILP32_OFFBIG_LIBS
+#define _IO_TIED_PUT_GET 0x400
+#define _CS_XBS5_ILP32_OFFBIG_LDFLAGS _CS_XBS5_ILP32_OFFBIG_LDFLAGS
+#define _PC_MAX_CANON _PC_MAX_CANON
+#define __USE_POSIX2 1
+#define __UINT8_TYPE__ unsigned char
+#define _SC_BC_BASE_MAX _SC_BC_BASE_MAX
+#define __SLONGWORD_TYPE long int
+#define _SC_LEVEL2_CACHE_ASSOC _SC_LEVEL2_CACHE_ASSOC
+#define __REDIRECT_LDBL(name,proto,alias) __REDIRECT (name, proto, alias)
+#define __NO_INLINE__ 1
+#define _SC_LEVEL1_ICACHE_ASSOC _SC_LEVEL1_ICACHE_ASSOC
+#define __warndecl(name,msg) extern void name (void) __attribute__((__warning__ (msg)))
+#define _SC_REALTIME_SIGNALS _SC_REALTIME_SIGNALS
+#define __FLT_MANT_DIG__ 24
+#define __VERSION__ "4.8.4"
+#define __UINT64_C(c) c ## UL
+#define _SYS_CDEFS_H 1
+#define _CS_LFS_LIBS _CS_LFS_LIBS
+#define _SC_XOPEN_ENH_I18N _SC_XOPEN_ENH_I18N
+#define _POSIX_VERSION 200809L
+#define _STDC_PREDEF_H 1
+#define __PTHREAD_MUTEX_HAVE_PREV 1
+#define _IO_file_flags _flags
+#define __USE_XOPEN2K8 1
+#define _SC_NL_MSGMAX _SC_NL_MSGMAX
+#define _SC_EXPR_NEST_MAX _SC_EXPR_NEST_MAX
+#define _PC_REC_INCR_XFER_SIZE _PC_REC_INCR_XFER_SIZE
+#define _BSD_SOURCE 1
+#define _CS_XBS5_LP64_OFF64_LIBS _CS_XBS5_LP64_OFF64_LIBS
+#define ENOTSOCK 88
+#define __STRING(x) #x
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+#define EPERM 1
+#define _SC_NL_LANGMAX _SC_NL_LANGMAX
+#define __INO_T_TYPE __SYSCALL_ULONG_TYPE
+#define _CS_XBS5_LP64_OFF64_CFLAGS _CS_XBS5_LP64_OFF64_CFLAGS
+#define F_ULOCK 0
+#define _SC_TRACE _SC_TRACE
+#define __ssize_t_defined 
+#define EBADFD 77
+#define __GNUC_PREREQ(maj,min) ((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))
+#define _SC_FSYNC _SC_FSYNC
+#define EL3HLT 46
+#define _SYS_SIZE_T_H 
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __FSBLKCNT64_T_TYPE __UQUAD_TYPE
+#define _IO_feof_unlocked(__fp) (((__fp)->_flags & _IO_EOF_SEEN) != 0)
+#define _POSIX_THREAD_PROCESS_SHARED 200809L
+#define __SUSECONDS_T_TYPE __SYSCALL_SLONG_TYPE
+#define _POSIX_TRACE_INHERIT -1
+#define __SIZE_T__ 
+#define _CS_POSIX_V6_ILP32_OFF32_LINTFLAGS _CS_POSIX_V6_ILP32_OFF32_LINTFLAGS
+#define __stub_gtty 
+#define _SC_2_LOCALEDEF _SC_2_LOCALEDEF
+#define __NLINK_T_TYPE __SYSCALL_ULONG_TYPE
+#define _SC_SHRT_MAX _SC_SHRT_MAX
+#define _IO_SHOWPOINT 0400
+#define _SC_MQ_PRIO_MAX _SC_MQ_PRIO_MAX
+#define _SC_DEVICE_IO _SC_DEVICE_IO
+#define _CS_POSIX_V7_ILP32_OFF32_LINTFLAGS _CS_POSIX_V7_ILP32_OFF32_LINTFLAGS
+#define _CS_POSIX_V6_ILP32_OFF32_LDFLAGS _CS_POSIX_V6_ILP32_OFF32_LDFLAGS
+#define _SC_THREAD_ATTR_STACKSIZE _SC_THREAD_ATTR_STACKSIZE
+#define __stub_sstk 
+#define __wur 
+#define _SC_THREAD_ROBUST_PRIO_INHERIT _SC_THREAD_ROBUST_PRIO_INHERIT
+#define __STDC_IEC_559_COMPLEX__ 1
+#define _G_HAVE_MMAP 1
+#define _IO_OCT 040
+#define __INT32_C(c) c
+#define __DEC64_EPSILON__ 1E-15DD
+#define __ORDER_PDP_ENDIAN__ 3412
+#define __DEC128_MIN_EXP__ (-6142)
+#define __PDP_ENDIAN 3412
+#define _POSIX_MEMLOCK 200809L
+#define EL2HLT 51
+#define BYTE_ORDER __BYTE_ORDER
+#define _SC_MESSAGE_PASSING _SC_MESSAGE_PASSING
+#define _UNISTD_H 1
+#define __INT_FAST32_TYPE__ long int
+#define __have_pthread_attr_t 1
+#define _BITS_TYPESIZES_H 1
+#define _SC_C_LANG_SUPPORT _SC_C_LANG_SUPPORT
+#define _SC_MULTI_PROCESS _SC_MULTI_PROCESS
+#define htole32(x) (x)
+#define __SYSCALL_SLONG_TYPE __SLONGWORD_TYPE
+#define EINVAL 22
+#define __UINT_LEAST16_TYPE__ short unsigned int
+#define _POSIX_THREAD_ATTR_STACKADDR 200809L
+#define _PC_PATH_MAX _PC_PATH_MAX
+#define _SC_MONOTONIC_CLOCK _SC_MONOTONIC_CLOCK
+#define unix 1
+#define EDOM 33
+#define ESHUTDOWN 108
+#define _SC_TIMER_MAX _SC_TIMER_MAX
+#define _SC_PIPE _SC_PIPE
+#define _SC_2_C_VERSION _SC_2_C_VERSION
+#define __INT16_MAX__ 32767
+#define __THROWNL __attribute__ ((__nothrow__))
+#define _BSD_SIZE_T_ 
+#define __SIZE_TYPE__ long unsigned int
+#define __UINT64_MAX__ 18446744073709551615UL
+#define __va_arg_pack_len() __builtin_va_arg_pack_len ()
+#define __ULONGWORD_TYPE unsigned long int
+#define _SIZE_T_DECLARED 
+#define _POSIX_THREADS 200809L
+#define _PC_NO_TRUNC _PC_NO_TRUNC
+#define _SC_UCHAR_MAX _SC_UCHAR_MAX
+#define _SC_SINGLE_PROCESS _SC_SINGLE_PROCESS
+#define _IO_SHOWBASE 0200
+#define _CS_POSIX_V7_ILP32_OFF32_LDFLAGS _CS_POSIX_V7_ILP32_OFF32_LDFLAGS
+#define __INT8_TYPE__ signed char
+#define _CS_XBS5_LP64_OFF64_LINTFLAGS _CS_XBS5_LP64_OFF64_LINTFLAGS
+#define _SC_PRIORITIZED_IO _SC_PRIORITIZED_IO
+#define _CS_POSIX_V5_WIDTH_RESTRICTED_ENVS _CS_V5_WIDTH_RESTRICTED_ENVS
+#define __ELF__ 1
+#define ENOMEDIUM 123
+#define _SC_V6_ILP32_OFFBIG _SC_V6_ILP32_OFFBIG
+#define _CS_POSIX_V6_ILP32_OFF32_CFLAGS _CS_POSIX_V6_ILP32_OFF32_CFLAGS
+#define _SC_TRACE_LOG _SC_TRACE_LOG
+#define __ILP32_OFFBIG_LDFLAGS "-m32"
+#define _BITS_BYTESWAP_H 1
+#define __ID_T_TYPE __U32_TYPE
+#define _ASM_GENERIC_ERRNO_BASE_H 
+#define ELIBSCN 81
+#define F_TLOCK 2
+#define _CS_POSIX_V6_WIDTH_RESTRICTED_ENVS _CS_V6_WIDTH_RESTRICTED_ENVS
+#define __warnattr(msg) __attribute__((__warning__ (msg)))
+#define _IO_funlockfile(_fp) 
+#define __FLT_RADIX__ 2
+#define __INT_LEAST16_TYPE__ short int
+#define __LDBL_EPSILON__ 1.08420217248550443401e-19L
+#define __UINTMAX_C(c) c ## UL
+#define _POSIX_C_SOURCE 200809L
+#define _G_IO_IO_FILE_VERSION 0x20001
+#define _CS_POSIX_V7_WIDTH_RESTRICTED_ENVS _CS_V7_WIDTH_RESTRICTED_ENVS
+#define __SSE_MATH__ 1
+#define _SC_LEVEL3_CACHE_ASSOC _SC_LEVEL3_CACHE_ASSOC
+#define __long_double_t long double
+#define _PC_PIPE_BUF _PC_PIPE_BUF
+#define ENAVAIL 119
+#define __k8 1
+#define __SIZEOF_PTHREAD_BARRIERATTR_T 4
+#define _SC_XOPEN_XPG2 _SC_XOPEN_XPG2
+#define _SC_XOPEN_XPG3 _SC_XOPEN_XPG3
+#define _SC_XOPEN_XPG4 _SC_XOPEN_XPG4
+#define __LDBL_REDIR(name,proto) name proto
+#define CLOCK_MONOTONIC_RAW 4
+#define __SIG_ATOMIC_MAX__ 2147483647
+#define _SC_PRIORITY_SCHEDULING _SC_PRIORITY_SCHEDULING
+#define _SC_FD_MGMT _SC_FD_MGMT
+#define F_TEST 3
+#define ENOSTR 60
+#define _SC_SELECT _SC_SELECT
+#define _POSIX_TIMEOUTS 200809L
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define _IO_IS_FILEBUF 0x2000
+#define _LFS64_LARGEFILE 1
+#define EOVERFLOW 75
+#define __bswap_constant_16(x) ((unsigned short int) ((((x) >> 8) & 0xff) | (((x) & 0xff) << 8)))
+#define _SC_THREAD_ROBUST_PRIO_PROTECT _SC_THREAD_ROBUST_PRIO_PROTECT
+#define _SC_THREAD_PROCESS_SHARED _SC_THREAD_PROCESS_SHARED
+#define __SIZEOF_PTRDIFF_T__ 8
+#define _LFS64_ASYNCHRONOUS_IO 1
+#define SEEK_SET 0
+#define _LFS64_STDIO 1
+#define __bswap_constant_32(x) ((((x) & 0xff000000) >> 24) | (((x) & 0x00ff0000) >> 8) | (((x) & 0x0000ff00) << 8) | (((x) & 0x000000ff) << 24))
+#define _IO_FLAGS2_NOTCANCEL 2
+#define __errordecl(name,msg) extern void name (void) __attribute__((__error__ (msg)))
+#define EUCLEAN 117
+#define __restrict_arr __restrict
+#define _SC_DELAYTIMER_MAX _SC_DELAYTIMER_MAX
+#define __attribute_artificial__ __attribute__ ((__artificial__))
+#define __USE_MISC 1
+#define EBUSY 16
+#define __UWORD_TYPE unsigned long int
+#define _SC_V7_ILP32_OFFBIG _SC_V7_ILP32_OFFBIG
+#define W_OK 2
+#define _POSIX_ASYNCHRONOUS_IO 200809L
+#define __x86_64__ 1
+#define _SIZE_T_ 
+#define __bswap_constant_64(x) (__extension__ ((((x) & 0xff00000000000000ull) >> 56) | (((x) & 0x00ff000000000000ull) >> 40) | (((x) & 0x0000ff0000000000ull) >> 24) | (((x) & 0x000000ff00000000ull) >> 8) | (((x) & 0x00000000ff000000ull) << 8) | (((x) & 0x0000000000ff0000ull) << 24) | (((x) & 0x000000000000ff00ull) << 40) | (((x) & 0x00000000000000ffull) << 56)))
+#define __PTHREAD_RWLOCK_INT_FLAGS_SHARED 1
+#define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+#define _IO_iconv_t _G_iconv_t
+#define _IO_USER_BUF 1
+#define _SC_SAVED_IDS _SC_SAVED_IDS
+#define EPROTO 71
+#define ENODEV 19
+#define _CS_POSIX_V7_LPBIG_OFFBIG_LIBS _CS_POSIX_V7_LPBIG_OFFBIG_LIBS
+#define __INT_FAST16_MAX__ 9223372036854775807L
+#define __stub_revoke 
+#define __timer_t_defined 1
+#define _CS_XBS5_ILP32_OFF32_LINTFLAGS _CS_XBS5_ILP32_OFF32_LINTFLAGS
+#define _POSIX_MONOTONIC_CLOCK 0
+#define EKEYEXPIRED 127
+#define _SC_2_PBS_ACCOUNTING _SC_2_PBS_ACCOUNTING
+#define _IO_off_t __off_t
+#define _SC_XBS5_LP64_OFF64 _SC_XBS5_LP64_OFF64
+#define EROFS 30
+#define __UINT_FAST32_MAX__ 18446744073709551615UL
+#define __CPU_ALLOC_SIZE(count) ((((count) + __NCPUBITS - 1) / __NCPUBITS) * sizeof (__cpu_mask))
+#define __UINT_LEAST64_TYPE__ long unsigned int
+#define _SC_SEMAPHORES _SC_SEMAPHORES
+#define __U64_TYPE unsigned long int
+#define __FLT_HAS_QUIET_NAN__ 1
+#define _SC_THREAD_ATTR_STACKADDR _SC_THREAD_ATTR_STACKADDR
+#define _SC_PII_INTERNET_STREAM _SC_PII_INTERNET_STREAM
+#define _IO_STDIO_H 
+#define __FLT_MAX_10_EXP__ 38
+#define _SC_HOST_NAME_MAX _SC_HOST_NAME_MAX
+#define __LONG_MAX__ 9223372036854775807L
+#define _SC_ATEXIT_MAX _SC_ATEXIT_MAX
+#define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+#define _PC_SYNC_IO _PC_SYNC_IO
+#define ELIBACC 79
+#define EHWPOISON 133
+#define _CS_POSIX_V6_LP64_OFF64_CFLAGS _CS_POSIX_V6_LP64_OFF64_CFLAGS
+#define _SC_SEM_NSEMS_MAX _SC_SEM_NSEMS_MAX
+#define __FLT_HAS_INFINITY__ 1
+#define L_INCR SEEK_CUR
+#define __LONG_LONG_PAIR(HI,LO) LO, HI
+#define __UINT_FAST16_TYPE__ long unsigned int
+#define __bos0(ptr) __builtin_object_size (ptr, 0)
+#define __DEC64_MAX__ 9.999999999999999E384DD
+#define NULL ((void *)0)
+#define __CHAR16_TYPE__ short unsigned int
+#define __PRAGMA_REDEFINE_EXTNAME 1
+#define ENOTEMPTY 39
+#define E2BIG 7
+#define __USING_NAMESPACE_C99(name) 
+#define BIG_ENDIAN __BIG_ENDIAN
+#define _VA_LIST_DEFINED 
+#define __BLKSIZE_T_TYPE __SYSCALL_SLONG_TYPE
+#define _IO_size_t size_t
+#define __INT_LEAST16_MAX__ 32767
+#define __stub_lchmod 
+#define __LP64_OFF64_LDFLAGS "-m64"
+#define pthread_cleanup_pop(execute) do { } while (0); } while (0); __pthread_unregister_cancel (&__cancel_buf); if (execute) __cancel_routine (__cancel_arg); } while (0)
+#define __DEC64_MANT_DIG__ 16
+#define __INT64_MAX__ 9223372036854775807L
+#define _CS_XBS5_ILP32_OFF32_LDFLAGS _CS_XBS5_ILP32_OFF32_LDFLAGS
+#define __UINT_LEAST32_MAX__ 4294967295U
+#define _SC_LEVEL4_CACHE_LINESIZE _SC_LEVEL4_CACHE_LINESIZE
+#define _PC_REC_XFER_ALIGN _PC_REC_XFER_ALIGN
+#define EL3RST 47
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+#define _SC_MEMORY_PROTECTION _SC_MEMORY_PROTECTION
+#define _SC_THREAD_KEYS_MAX _SC_THREAD_KEYS_MAX
+#define __INT_LEAST64_TYPE__ long int
+#define htole16(x) (x)
+#define __INT16_TYPE__ short int
+#define __INT_LEAST8_TYPE__ signed char
+#define __CPU_OP_S(setsize,destset,srcset1,srcset2,op) (__extension__ ({ cpu_set_t *__dest = (destset); const __cpu_mask *__arr1 = (srcset1)->__bits; const __cpu_mask *__arr2 = (srcset2)->__bits; size_t __imax = (setsize) / sizeof (__cpu_mask); size_t __i; for (__i = 0; __i < __imax; ++__i) ((__cpu_mask *) __dest->__bits)[__i] = __arr1[__i] op __arr2[__i]; __dest; }))
+#define ENOTDIR 20
+#define __DEC32_MAX_EXP__ 97
+#define TIMER_ABSTIME 1
+#define _SC_UIO_MAXIOV _SC_UIO_MAXIOV
+#define __INT_FAST8_MAX__ 127
+#define __PMT(args) args
+#define __INTPTR_MAX__ 9223372036854775807L
+#define ECONNRESET 104
+#define _OLD_STDIO_MAGIC 0xFABC0000
+#define linux 1
+#define _IOS_APPEND 8
+#define _SC_LEVEL3_CACHE_SIZE _SC_LEVEL3_CACHE_SIZE
+#define ENXIO 6
+#define _SC_THREAD_CPUTIME _SC_THREAD_CPUTIME
+#define CLOCK_MONOTONIC 1
+#define ____FILE_defined 1
+#define _IOLBF 1
+#define htole64(x) (x)
+#define EBADRQC 56
+#define _IO_UPPERCASE 01000
+#define L_XTND SEEK_END
+#define _XLOCALE_H 1
+#define _SC_LEVEL1_DCACHE_SIZE _SC_LEVEL1_DCACHE_SIZE
+#define _SC_MEMLOCK_RANGE _SC_MEMLOCK_RANGE
+#define __SSE2__ 1
+#define __KEY_T_TYPE __S32_TYPE
+#define _CS_GNU_LIBC_VERSION _CS_GNU_LIBC_VERSION
+#define __WORDSIZE 64
+#define __BEGIN_DECLS 
+#define _SC_PII_XTI _SC_PII_XTI
+#define __LDBL_MANT_DIG__ 64
+#define _PC_REC_MIN_XFER_SIZE _PC_REC_MIN_XFER_SIZE
+#define __SIZEOF_PTHREAD_MUTEXATTR_T 4
+#define ENAMETOOLONG 36
+#define __DBL_HAS_QUIET_NAN__ 1
+#define _IO_BAD_SEEN 0x4000
+#define _SC_FILE_SYSTEM _SC_FILE_SYSTEM
+#define __GNUC_VA_LIST 
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+#define __code_model_small__ 1
+#define _XOPEN_REALTIME 1
+#define __RLIM_T_TYPE __SYSCALL_ULONG_TYPE
+#define le64toh(x) (x)
+#define FILENAME_MAX 4096
+#define ESOCKTNOSUPPORT 94
+#define __k8__ 1
+#define __INTPTR_TYPE__ long int
+#define __UINT16_TYPE__ short unsigned int
+#define __WCHAR_TYPE__ int
+#define __CLOCKID_T_TYPE __S32_TYPE
+#define __SIZEOF_FLOAT__ 4
+#define _IOS_TRUNC 16
+#define __HAVE_COLUMN 
+#define _POSIX_MEMLOCK_RANGE 200809L
+#define __stub_fdetach 
+#define ELIBEXEC 83
+#define __UINTPTR_MAX__ 18446744073709551615UL
+#define ETOOMANYREFS 109
+#define __DEC64_MIN_EXP__ (-382)
+#define __stub_chflags 
+#define putc(_ch,_fp) _IO_putc (_ch, _fp)
+#define __UQUAD_TYPE unsigned long int
+#define EDOTDOT 73
+#define __BYTE_ORDER __LITTLE_ENDIAN
+#define __USE_POSIX 1
+#define EADDRNOTAVAIL 99
+#define ETIME 62
+#define __INT_FAST64_MAX__ 9223372036854775807L
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+#define BUFSIZ _IO_BUFSIZ
+#define __FLT_DIG__ 6
+#define __FSID_T_TYPE struct { int __val[2]; }
+#define _SC_NL_SETMAX _SC_NL_SETMAX
+#define _SC_SS_REPL_MAX _SC_SS_REPL_MAX
+#define __UINT_FAST64_TYPE__ long unsigned int
+#define _IO_putc_unlocked(_ch,_fp) (_IO_BE ((_fp)->_IO_write_ptr >= (_fp)->_IO_write_end, 0) ? __overflow (_fp, (unsigned char) (_ch)) : (unsigned char) (*(_fp)->_IO_write_ptr++ = (_ch)))
+#define __LDBL_REDIR_DECL(name) 
+#define _SC_2_PBS _SC_2_PBS
+#define STDIN_FILENO 0
+#define __INT_MAX__ 2147483647
+#define _CS_POSIX_V7_ILP32_OFFBIG_LINTFLAGS _CS_POSIX_V7_ILP32_OFFBIG_LINTFLAGS
+#define __amd64__ 1
+#define __ILP32_OFF32_LDFLAGS "-m32"
+#define __S16_TYPE short int
+#define __bos(ptr) __builtin_object_size (ptr, __USE_FORTIFY_LEVEL > 1)
+#define _T_SIZE_ 
+#define __CPU_SETSIZE 1024
+#define ENOTRECOVERABLE 131
+#define _POSIX_THREAD_ROBUST_PRIO_INHERIT 200809L
+#define _G_va_list __gnuc_va_list
+#define _IOS_INPUT 1
+#define __INT64_TYPE__ long int
+#define EIO 5
+#define __FLT_MAX_EXP__ 128
+#define CLOCK_PROCESS_CPUTIME_ID 2
+#define _SC_AIO_PRIO_DELTA_MAX _SC_AIO_PRIO_DELTA_MAX
+#define __gid_t_defined 
+#define ENETUNREACH 101
+#define EXDEV 18
+#define _SC_PHYS_PAGES _SC_PHYS_PAGES
+#define _SC_ADVISORY_INFO _SC_ADVISORY_INFO
+#define __ORDER_BIG_ENDIAN__ 4321
+#define _SC_THREAD_PRIORITY_SCHEDULING _SC_THREAD_PRIORITY_SCHEDULING
+#define ESTRPIPE 86
+#define _SC_REGEX_VERSION _SC_REGEX_VERSION
+#define __ptr_t void *
+#define __DBL_MANT_DIG__ 53
+#define ___int_size_t_h 
+#define __TIMER_T_TYPE void *
+#define _POSIX_REALTIME_SIGNALS 200809L
+#define _POSIX_V6_LP64_OFF64 1
+#define __INT_LEAST64_MAX__ 9223372036854775807L
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+#define _POSIX_TRACE -1
+#define __GLIBC_MINOR__ 19
+#define __DEC64_MIN__ 1E-383DD
+#define __WINT_TYPE__ unsigned int
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define _POSIX_FSYNC 200809L
+#define __SIZEOF_SHORT__ 2
+#define STDOUT_FILENO 1
+#define __SSE__ 1
+#define CLOCK_BOOTTIME 7
+#define __intptr_t_defined 
+#define __LDBL_MIN_EXP__ (-16381)
+#define _IO_va_list __gnuc_va_list
+#define _CS_XBS5_ILP32_OFFBIG_LINTFLAGS _CS_XBS5_ILP32_OFFBIG_LINTFLAGS
+#define _POSIX_VDISABLE '\0'
+#define EREMOTEIO 121
+#define _SC_XBS5_ILP32_OFF32 _SC_XBS5_ILP32_OFF32
+#define ENOSPC 28
+#define stdout stdout
+#define ENOEXEC 8
+#define __REDIRECT_NTHNL(name,proto,alias) name proto __asm__ (__ASMNAME (#alias)) __THROWNL
+#define _POSIX_THREAD_PRIO_INHERIT 200809L
+#define EOF (-1)
+#define __INT_LEAST8_MAX__ 127
+#define __extern_inline extern __inline __attribute__ ((__gnu_inline__))
+#define __USE_POSIX199309 1
+#define __SSP__ 1
+#define ____mbstate_t_defined 1
+#define __SIZEOF_INT128__ 16
+#define _SC_2_FORT_RUN _SC_2_FORT_RUN
+#define __BLKCNT64_T_TYPE __SQUAD_TYPE
+#define __LDBL_MAX_10_EXP__ 4932
+#define _POSIX_SEMAPHORES 200809L
+#define __ATOMIC_RELAXED 0
+#define __FSBLKCNT_T_TYPE __SYSCALL_ULONG_TYPE
+#define __DBL_EPSILON__ ((double)2.22044604925031308085e-16L)
+#define EMSGSIZE 90
+#define PTHREAD_PROCESS_PRIVATE PTHREAD_PROCESS_PRIVATE
+#define __stub_stty 
+#define le16toh(x) (x)
+#define _SIZET_ 
+#define _SC_USER_GROUPS _SC_USER_GROUPS
+#define _PC_ALLOC_SIZE_MIN _PC_ALLOC_SIZE_MIN
+#define _SVID_SOURCE 1
+#define _LP64 1
+#define __REDIRECT_NTH_LDBL(name,proto,alias) __REDIRECT_NTH (name, proto, alias)
+#define __UINT8_C(c) c
+#define EFBIG 27
+#define ESRCH 3
+#define __INT_LEAST32_TYPE__ int
+#define _SC_PII_INTERNET _SC_PII_INTERNET
+#define ECHRNG 44
+#define _SC_REGEXP _SC_REGEXP
+#define _LFS_LARGEFILE 1
+#define SEEK_END 2
+#define __SIZEOF_WCHAR_T__ 4
+#define __USE_POSIX_IMPLICITLY 1
+#define __UINT64_TYPE__ long unsigned int
+#define _PTHREAD_H 1
+#define ENOLCK 37
+#define ENFILE 23
+#define __REDIRECT_NTH(name,proto,alias) name proto __asm__ (__ASMNAME (#alias)) __THROW
+#define __ILP32_OFF32_CFLAGS "-m32"
+#define _IO_RIGHT 04
+#define __END_NAMESPACE_STD 
+#define _SC_IOV_MAX _SC_IOV_MAX
+#define _SC_PASS_MAX _SC_PASS_MAX
+#define _XOPEN_UNIX 1
+#define _POSIX_MAPPED_FILES 200809L
+#define be64toh(x) __bswap_64 (x)
+#define ENOSYS 38
+#define _SC_LOGIN_NAME_MAX _SC_LOGIN_NAME_MAX
+#define _SC_MAPPED_FILES _SC_MAPPED_FILES
+#define __INT_FAST8_TYPE__ signed char
+#define __PID_T_TYPE __S32_TYPE
+#define _SC_AIO_MAX _SC_AIO_MAX
+#define ENOTCONN 107
+#define _POSIX_THREAD_ROBUST_PRIO_PROTECT -1
+#define PTHREAD_CREATE_JOINABLE PTHREAD_CREATE_JOINABLE
+#define P_tmpdir "/tmp"
+#define __attribute_pure__ __attribute__ ((__pure__))
+#define _POSIX_MESSAGE_PASSING 200809L
+#define __WORDSIZE_TIME64_COMPAT32 1
+#define EPFNOSUPPORT 96
+#define PTHREAD_SCOPE_SYSTEM PTHREAD_SCOPE_SYSTEM
+#define ESRMNT 69
+#define _IO_stdin ((_IO_FILE*)(&_IO_2_1_stdin_))
+#define EHOSTDOWN 112
+#define _IO_cleanup_region_start(_fct,_fp) 
+#define R_OK 4
+#define _IO_NO_READS 4
+#define PTHREAD_ONCE_INIT 0
+#define _IO_DEC 020
+#define __DBL_DECIMAL_DIG__ 17
+#define __FXSR__ 1
+#define EDEADLOCK EDEADLK
+#define __DEC_EVAL_METHOD__ 2
+#define ECONNABORTED 103
+#define _SIZE_T 
+#define _POSIX2_VERSION __POSIX2_THIS_VERSION
+#define ENOANO 55
+#define _IO_ERR_SEEN 0x20
+#define __ULONG32_TYPE unsigned int
+#define _SC_2_PBS_TRACK _SC_2_PBS_TRACK
+#define _G_config_h 1
+#define FOPEN_MAX 16
+#define __BIG_ENDIAN 4321
+#define _SC_LEVEL2_CACHE_SIZE _SC_LEVEL2_CACHE_SIZE
+#define _IO_STDIO 040000
+#define __off_t_defined 
+#define ENOTBLK 15
+#define _IO_IS_APPENDING 0x1000
+#define _SC_LEVEL1_DCACHE_ASSOC _SC_LEVEL1_DCACHE_ASSOC
+#define _POSIX_REENTRANT_FUNCTIONS 1
+#define _SC_DEVICE_SPECIFIC _SC_DEVICE_SPECIFIC
+#define __CPU_ALLOC(count) __sched_cpualloc (count)
+#define _GCC_SIZE_T 
+#define _POSIX_THREAD_PRIO_PROTECT 200809L
+#define __INO64_T_TYPE __UQUAD_TYPE
+#define _SC_AVPHYS_PAGES _SC_AVPHYS_PAGES
+#define L_SET SEEK_SET
+#define __UINT32_C(c) c ## U
+#define __INTMAX_MAX__ 9223372036854775807L
+#define EISCONN 106
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define _SC_INT_MAX _SC_INT_MAX
+#define __size_t__ 
+#define _CS_LFS_LDFLAGS _CS_LFS_LDFLAGS
+#define _IO_BUFSIZ _G_BUFSIZ
+#define __FLT_DENORM_MIN__ 1.40129846432481707092e-45F
+#define _SC_SYNCHRONIZED_IO _SC_SYNCHRONIZED_IO
+#define __BEGIN_NAMESPACE_C99 
+#define _SC_TRACE_INHERIT _SC_TRACE_INHERIT
+#define _CS_LFS64_LIBS _CS_LFS64_LIBS
+#define EUSERS 87
+#define __INT8_MAX__ 127
+#define _SC_LEVEL4_CACHE_ASSOC _SC_LEVEL4_CACHE_ASSOC
+#define _SC_XOPEN_SHM _SC_XOPEN_SHM
+#define __UINT_FAST32_TYPE__ long unsigned int
+#define _SC_PAGE_SIZE _SC_PAGESIZE
+#define PTHREAD_EXPLICIT_SCHED PTHREAD_EXPLICIT_SCHED
+#define __INO_T_MATCHES_INO64_T 1
+#define _IO_fpos_t _G_fpos_t
+#define __CHAR32_TYPE__ unsigned int
+#define ENOPROTOOPT 92
+#define _CS_POSIX_V7_LP64_OFF64_CFLAGS _CS_POSIX_V7_LP64_OFF64_CFLAGS
+#define __FLT_MAX__ 3.40282346638528859812e+38F
+#define EPROTONOSUPPORT 93
+#define _SC_SIGQUEUE_MAX _SC_SIGQUEUE_MAX
+#define EMFILE 24
+#define _SC_2_PBS_LOCATE _SC_2_PBS_LOCATE
+#define __attribute_format_arg__(x) __attribute__ ((__format_arg__ (x)))
+#define _POSIX2_CHAR_TERM 200809L
+#define _POSIX_ASYNC_IO 1
+#define _CS_POSIX_V7_LPBIG_OFFBIG_LINTFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_LINTFLAGS
+#define _CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS
+#define ERFKILL 132
+#define __INT32_TYPE__ int
+#define PTHREAD_CANCEL_DISABLE PTHREAD_CANCEL_DISABLE
+#define ENOBUFS 105
+#define __SIZEOF_DOUBLE__ 8
+#define __FLT_MIN_10_EXP__ (-37)
+#define __time_t_defined 1
+#define _SC_INT_MIN _SC_INT_MIN
+#define _IO_BE(expr,res) __builtin_expect ((expr), res)
+#define __SWORD_TYPE long int
+#define __INTMAX_TYPE__ long int
+#define be16toh(x) __bswap_16 (x)
+#define __PTHREAD_SPINS 0, 0
+#define EFAULT 14
+#define _SC_V6_LPBIG_OFFBIG _SC_V6_LPBIG_OFFBIG
+#define __DEC128_MAX_EXP__ 6145
+#define __CPU_FREE(cpuset) __sched_cpufree (cpuset)
+#define __PTHREAD_MUTEX_HAVE_ELISION 1
+#define _T_SIZE 
+#define __va_arg_pack() __builtin_va_arg_pack ()
+#define EWOULDBLOCK EAGAIN
+#define _CS_POSIX_V7_LP64_OFF64_LDFLAGS _CS_POSIX_V7_LP64_OFF64_LDFLAGS
+#define _POSIX2_C_BIND __POSIX2_THIS_VERSION
+#define __ATOMIC_CONSUME 1
+#define _CS_V6_WIDTH_RESTRICTED_ENVS _CS_V6_WIDTH_RESTRICTED_ENVS
+#define _IO_stdout ((_IO_FILE*)(&_IO_2_1_stdout_))
+#define __GNUC_MINOR__ 8
+#define __UINTMAX_MAX__ 18446744073709551615UL
+#define _SC_LEVEL1_ICACHE_LINESIZE _SC_LEVEL1_ICACHE_LINESIZE
+#define _SC_TRACE_SYS_MAX _SC_TRACE_SYS_MAX
+#define __DEC32_MANT_DIG__ 7
+#define LITTLE_ENDIAN __LITTLE_ENDIAN
+#define ELIBBAD 80
+#define _CS_V7_ENV _CS_V7_ENV
+#define _SC_SIGNALS _SC_SIGNALS
+#define ECONNREFUSED 111
+#define _POSIX2_C_DEV __POSIX2_THIS_VERSION
+#define _ASM_GENERIC_ERRNO_H 
+#define EAGAIN 11
+#define __DBL_MAX_10_EXP__ 308
+#define __FILE_defined 1
+#define _BITS_PTHREADTYPES_H 1
+#define __LDBL_DENORM_MIN__ 3.64519953188247460253e-4951L
+#define _CS_V7_WIDTH_RESTRICTED_ENVS _CS_V7_WIDTH_RESTRICTED_ENVS
+#define _CS_LFS64_LINTFLAGS _CS_LFS64_LINTFLAGS
+#define _CS_XBS5_LPBIG_OFFBIG_LINTFLAGS _CS_XBS5_LPBIG_OFFBIG_LINTFLAGS
+#define _POSIX_TRACE_LOG -1
+#define __INT16_C(c) c
+#define __U32_TYPE unsigned int
+#define _CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS _CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS
+#define _SC_THREADS _SC_THREADS
+#define _CS_POSIX_V7_LP64_OFF64_LIBS _CS_POSIX_V7_LP64_OFF64_LIBS
+#define __STDC__ 1
+#define __attribute_malloc__ __attribute__ ((__malloc__))
+#define ELIBMAX 82
+#define EEXIST 17
+#define __PTRDIFF_TYPE__ long int
+#define errno (*__errno_location ())
+#define EL2NSYNC 45
+#define __clockid_t_defined 1
+#define __attribute_noinline__ __attribute__ ((__noinline__))
+#define _IO_HEX 0100
+#define __ATOMIC_SEQ_CST 5
+#define _SC_2_PBS_CHECKPOINT _SC_2_PBS_CHECKPOINT
+#define __NCPUBITS (8 * sizeof (__cpu_mask))
+#define ENOENT 2
+#define ENOPKG 65
+#define __CLOCK_T_TYPE __SYSCALL_SLONG_TYPE
+#define _IO_fpos64_t _G_fpos64_t
+#define __UINT32_TYPE__ unsigned int
+#define __UINTPTR_TYPE__ long unsigned int
+#define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+#define _PC_2_SYMLINKS _PC_2_SYMLINKS
+#define __FSFILCNT64_T_TYPE __UQUAD_TYPE
+#define __LP64_OFF64_CFLAGS "-m64"
+#define __DEC128_MANT_DIG__ 34
+#define __LDBL_MIN_10_EXP__ (-4931)
+#define _SC_FIFO _SC_FIFO
+#define EKEYREVOKED 128
+#define __useconds_t_defined 
+#define _SC_V7_LPBIG_OFFBIG _SC_V7_LPBIG_OFFBIG
+#define __attribute_deprecated__ __attribute__ ((__deprecated__))
+#define _SC_SPAWN _SC_SPAWN
+#define _SC_CHAR_MAX _SC_CHAR_MAX
+#define _IO_wint_t wint_t
+#define __SIZEOF_LONG_LONG__ 8
+#define EHOSTUNREACH 113
+#define __USE_ATFILE 1
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 2
+#define __LDBL_DIG__ 18
+#define ENOTUNIQ 76
+#define _SC_NZERO _SC_NZERO
+#define __FLT_DECIMAL_DIG__ 9
+#define __UINT_FAST16_MAX__ 18446744073709551615UL
+#define _SC_STREAMS _SC_STREAMS
+#define __GNUC_GNU_INLINE__ 1
+#define __POSIX2_THIS_VERSION 200809L
+#define _SC_BC_DIM_MAX _SC_BC_DIM_MAX
+#define X_OK 1
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+#define _SC_CHAR_BIT _SC_CHAR_BIT
+#define _IO_ftrylockfile(_fp) 
+#define __glibc_likely(cond) __builtin_expect ((cond), 1)
+#define _CS_POSIX_V6_ILP32_OFF32_LIBS _CS_POSIX_V6_ILP32_OFF32_LIBS
+#define __UINT_FAST8_TYPE__ unsigned char
+#define EOPNOTSUPP 95
+#define _POSIX_SAVED_IDS 1
+#define __P(args) args
+#define _POSIX_BARRIERS 200809L
+#define __ATOMIC_ACQ_REL 4
+#define __ATOMIC_RELEASE 3
+#define EMEDIUMTYPE 124
+#define _IO_peekc(_fp) _IO_peekc_unlocked (_fp)
