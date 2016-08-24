@@ -24,6 +24,10 @@ void printids(const char *s)
 void *thr_fn(void *arg){
 
     printids("new thread:");
+  
+	pthread_exit((void *)1);//通过参数进行返回。
+
+	printids("不会执行");
     return  ((void *)0);
 }
 
@@ -31,21 +35,17 @@ void *thr_fn(void *arg){
 
 int main(){
 
-extern    int errno;
+	extern    int errno;
+	void *retval;
+
     errno = 0; // 在使用之前，先初始化为0
     errno = pthread_create(&ntid,NULL,thr_fn,NULL);
     if(0 != errno){
          printf("can't create thread:%s \n",strerror(errno));
     }
-/*
-    int err;
-    err = pthread_create(&ntid,NULL,thr_fn,NULL);
-    if(0 != err){
-         printf("can't create thread:%s \n",strerror(err));
-    }
-    */
+
     printids("main thread:");
-     sleep(1);
+     // sleep(1);
 
      /*
       *
@@ -57,5 +57,9 @@ extern    int errno;
       * 注释了sleep(1);发现整个进程直接退出。
       *
       * */
+
+	pthread_join(ntid,&retval);
+
+	printf("子线程的返回值是 %d\n",(int)retval);
     return 0;
 }
