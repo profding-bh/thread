@@ -6,5 +6,49 @@ pthread_create之主线程与新创建 的子线程之间的退出关系。
 它所创建的 新线程呢？？
 
 
-1）主线程等待新线程先结束退出,主线程后退出。程序正常结束。
+1）主线程等待  新线程先结束  退出,主线程后  退出。程序正常结束。例如：pthread_create3.c
+
+2) 进程先退出，新线程也会立即退出，系统清除所有的资源。例如：pthread_create4.c
+
+
+3) 如果主线程调用了pthread_exit,那么它退出了，子线程也不会退出。例如：pthread_create5.c
+
+如下代码片段：
+int main(){
+
+extern    int errno;
+    errno = 0; // 在使用之前，先初始化为0
+    errno = pthread_create(&ntid,NULL,thr_fn,NULL);
+    if(0 != errno){
+         printf("can't create thread:%s \n",strerror(errno));
+    }
+    printids("main thread:");
+     
+	pthread_exit(NULL);
+   //如果主线程调用了pthread_exit，那么它退出了，子线程也不会退出。
+	printf("我会执行吗\n");// 主线程不会执行这句代码
+    return 0;// 结束整个进程。
+}
+
+按照POSIX标准定义，当主线程在 子线程结束  之前调用pthread_exit()时，子线程是不会退出的。
+
+结论：
+
+一个线程的退出不会影响另外一个线程。即便是主线程也是一样。但是进程结束的话，
+所有的线程都会结束。所有的资源都会被回收。
+
+4）在新建的子线程A中，再次创建子线程B，如果A先退出，那么B会继续运行直到完毕后自己退出，而不会立即退出。例如：pthread_create6.c
+
+这句话告诉我们，不仅主线程可以创建子线程，子线程里面还可以继续创建子线程。。。。
+
+
+总结：
+
+  其实所有的线程都是平级的，根本不存在所谓的 主线程 和 子线程一说。
+
+
+
+
+
+
 
